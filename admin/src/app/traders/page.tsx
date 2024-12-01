@@ -4,7 +4,7 @@ import { ProductSellGraph } from "@/components/produce-sell-graph";
 import React from "react";
 import {
   DashboardAnalyticsData,
-  numberOfFarmers,
+  numberOfTraders,
   ProduceCellDataFarmer,
   produce_cell_chartConfig,
 } from "../../../public/Data/data";
@@ -21,9 +21,9 @@ const page = () => {
           data={DashboardAnalyticsData.Tradesales.graphData}
         />
         <NumberOfUser
-          name={numberOfFarmers.name}
-          number={numberOfFarmers.number}
-          growth={numberOfFarmers.growth}
+          name={numberOfTraders.name}
+          number={numberOfTraders.number}
+          growth={numberOfTraders.growth}
         />
       </div>
       <div className="flex">

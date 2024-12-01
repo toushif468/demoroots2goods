@@ -427,7 +427,7 @@ export const produce_cell_chartConfig = {
 
 //=========================================================================Trader==============================================================================
 // "use client"
-//page: Farmer (Bottom cards)
+//page: Trader (Bottom cards)
 export const ProduceCellDataTrader = {
   graph1: {
     title: "Potato",
@@ -464,3 +464,55 @@ export const ProduceCellDataTrader = {
   },
 
 }
+
+export const numberOfTraders = {
+  name: "Traders",
+  number: 329,
+  growth: 18,
+};
+
+//=========================================================================wholesalers==============================================================================
+// "use client"
+//page: wholesalers (Bottom cards)
+export const ProduceCellDataWholesalers = {
+  graph1: {
+    title: "Potato",
+    chartData: [
+      { date: "2024-07-15", produce: 450, sell: 300 },
+      { date: "2024-07-16", produce: 380, sell: 420 },
+      { date: "2024-07-17", produce: 562, sell: 562 },
+      { date: "2024-07-18", produce: 865, sell: 125 },
+      { date: "2024-07-19", produce: 125, sell: 451 },
+      { date: "2024-07-20", produce: 634, sell: 400 },
+    ]
+  },
+  graph2: {
+    title: "Bean",
+    chartData: [
+      { date: "2024-07-15", produce: 450, sell: 300 },
+      { date: "2024-07-16", produce: 451, sell: 562 },
+      { date: "2024-07-17", produce: 125, sell: 634 },
+      { date: "2024-07-18", produce: 140, sell: 550 },
+      { date: "2024-07-19", produce: 564, sell: 451 },
+      { date: "2024-07-20", produce: 480, sell: 125 },
+    ]
+  },
+  graph3: {
+    title: "Ladies Finger",
+    chartData: [
+      { date: "2024-07-15", produce: 562, sell: 300 },
+      { date: "2024-07-16", produce: 380, sell: 420 },
+      { date: "2024-07-17", produce: 634, sell: 50 },
+      { date: "2024-07-18", produce: 125, sell: 550 },
+      { date: "2024-07-19", produce: 564, sell: 451 },
+      { date: "2024-07-20", produce: 480, sell: 562 },
+    ],
+  },
+
+}
+
+export const numberOfWholesalers = {
+  name: "Wholesalers",
+  number: 765,
+  growth: 7.9,
+};
